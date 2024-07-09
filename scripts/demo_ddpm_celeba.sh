@@ -1,0 +1,2 @@
+python generator_testbed2.py celeba/diffusion configs/generator_testbed/diffusion.yaml
+python eval_generator.py celeba/diffusion --psnr --image-evolution --spectrum-evolution --spectrum-error-evolution 

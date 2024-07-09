@@ -1,0 +1,19 @@
+data:
+  root: data/celeba_hq_256
+  resolution: 64
+  subset:
+model:
+training:
+  batch_size: 100
+  nworkers: 0
+  monitoring: tensorboard
+  nepochs: 200
+  print_every: 100
+  eval_every: 100
+  save_every: 100
+  lr: 0.001
+  criterion:
+    class_name: torch.nn.MSELoss
+    weight:
+  model_file: model.pt
+  seed: 0
