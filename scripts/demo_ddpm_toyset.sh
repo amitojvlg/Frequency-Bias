@@ -1,0 +1,2 @@
+python generator_testbed.py toyset64_100/diffusion configs/generator_testbed/diffusion.yaml
+python eval_generator.py toyset64_100/diffusion --psnr --image-evolution --spectrum-evolution --spectrum-error-evolution 

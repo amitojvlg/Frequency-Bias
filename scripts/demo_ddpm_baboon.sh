@@ -1,0 +1,2 @@
+python generator_testbed1.py baboon64/diffusion configs/generator_testbed/diffusion.yaml
+python eval_generator.py baboon64/diffusion --psnr --image-evolution --spectrum-evolution --spectrum-error-evolution 

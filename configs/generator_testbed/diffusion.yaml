@@ -1,0 +1,6 @@
+model:
+  class_name: models.DDPM
+  in_channels: 3
+  out_channels: 3
+  num_features: 64
+  num_timesteps: 1000

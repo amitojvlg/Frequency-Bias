@@ -1,0 +1,1 @@
+output/generator_testbed/baboon64/pggan/logs/stats.p filter=lfs diff=lfs merge=lfs -text

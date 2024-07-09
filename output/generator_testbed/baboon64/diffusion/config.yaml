@@ -1,0 +1,24 @@
+data:
+  resolution: 64
+  root: data/baboon
+  subset: null
+model:
+  class_name: models.DDPM
+  in_channels: 3
+  num_features: 64
+  num_timesteps: 1000
+  out_channels: 3
+training:
+  batch_size: 10
+  criterion:
+    class_name: torch.nn.MSELoss
+    weight: null
+  eval_every: 10
+  lr: 0.001
+  model_file: model.pt
+  monitoring: tensorboard
+  nepochs: 2000
+  nworkers: 0
+  print_every: 10
+  save_every: 10
+  seed: 0
