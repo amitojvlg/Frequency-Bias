@@ -137,6 +137,13 @@ output/generator_testbed/baboon64/diffusion/plots/
 output/generator_testbed/toyset64_100/diffusion/imgs/
 output/generator_testbed/toyset64_100/diffusion/logs/
 output/generator_testbed/toyset64_100/diffusion/plots/
+output/generator_testbed/baboon64/diffusion1/imgs/
+output/generator_testbed/baboon64/diffusion1/logs/
+output/generator_testbed/baboon64/diffusion1/plots/
+output/generator_testbed/toyset64_100/diffusion1/imgs/
+output/generator_testbed/toyset64_100/diffusion1/logs/
+output/generator_testbed/toyset64_100/diffusion1/plots/
+
 
 
 

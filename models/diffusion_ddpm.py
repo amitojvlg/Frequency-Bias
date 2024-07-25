@@ -508,6 +508,8 @@ __all__ = ['DDPM']
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import numpy as np
+__all__ = ['DDPM']
 
 class Diffusion:
     def __init__(self, num_timesteps, beta_start=0.0001, beta_end=0.02):

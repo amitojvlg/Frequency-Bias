@@ -1,6 +1,7 @@
 from models.pggan_generator import PGGANGenerator
 from models.pggan_discriminator import PGGANDiscriminator
 from models.diffusion_ddpm import DDPM
+from models.diffusion_ldm import LDM
 
 from models.direct_generator import DirectGenerator
 from models.mlp import MLP
